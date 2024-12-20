@@ -12,5 +12,6 @@ sudo usermod -aG docker ${USER}
 su -s ${USER}
 docker login
 
+curl -sSL https://install.python-poetry.org | python3 -
 
 sudo apt install cowsay
