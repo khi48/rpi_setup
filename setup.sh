@@ -16,8 +16,15 @@ docker login
 
 curl -sSL https://install.python-poetry.org | python3 -
 
+# Updating git commands
+cat <<EOT >> /home/kieranhitchcock/.bashrc
 
-# Updating bashrc
+# git commands
+alias ga="git add ."
+alias gc="git commit -m"
+alias gp="git push"
+
+# Updating poetry configs
 cat <<EOT >> /home/kieranhitchcock/.bashrc
 # poetry export
 export PATH="/home/kieranhitchcock/.local/bin:$PATH"
