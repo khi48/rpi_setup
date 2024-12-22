@@ -44,3 +44,5 @@ poetry config keyring.enabled false
 EOT
 
 sudo apt install cowsay
+
+sudo raspi-config
