@@ -6,7 +6,6 @@ echo "-----------------------"
 echo "Git Setup"
 echo "-----------------------"
 sudo apt install git
-
 ssh-keygen -t ed25519 -C $EMAIL
 cat ~/.ssh/id_ed25519.pub
 git config --global user.email $EMAIL
