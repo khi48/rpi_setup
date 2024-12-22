@@ -45,4 +45,5 @@ EOT
 
 sudo apt install cowsay
 
+sudo apt-get -y install chromium-chromedriver 
 sudo raspi-config
