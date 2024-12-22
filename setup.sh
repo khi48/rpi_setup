@@ -32,6 +32,7 @@ cat <<EOT >> /home/kieranhitchcock/.bashrc
 alias ga="git add ."
 alias gc="git commit -m"
 alias gp="git push"
+EOT
 
 # Updating poetry configs
 cat <<EOT >> /home/kieranhitchcock/.bashrc
